@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+<link rel="stylesheet" href="css/login.css">
+
+<title>Traffic Violation Unit</title>
+
+</head>
+
+<body>
+
+<img class="anim" src = "img/siren.gif" width="200">
+
+<div class="head1">
+
+<h1>Traffic Violation Unit</h1>
+
+</div>
+
+
+<div class="head2">
+
+<h2>Sri Lanka Police</h2>
+
+</div>
+
+<hr/>
+
+<img class="logo" src = "img/logo.png" width="170" alt="logo">
+
+
+
+<div class="footer">
+
+  <p>Site Developed and Maintenance by SLP IT Devision. All rights reserved ©</p>
+  
+  
+</div>
+<ul>
+<!-- menu bar-->
+<div class="navi">
+  <li><a href="home.html">Home</a></li>
+  <li><a href="acci.html">Road Traffic Accidents</a></li>
+  <li><a href="fine.html">New Traffic Fines</a></li>
+  <li><a href="register.html">Registration</a></li>
+  <li><a href="login.html">Login</a></li>
+  <li><a href="guide.html">Guidance</a></li>
+  <li><a href="contact.html">Contact Us</a></li>
+  <li><a href="aboutus.html">About Us</a></li> 
+</div>  
+  
+</ul>
+<font color = "#FDD7E4"><center><h1> Welcome to driver help center </h1></center></font> 
+
+<!-- image buttons-->
+<div class="header" id="myHeader">
+  <h1></h1>
+  <p></p>
+  <button class="btn" onclick="one()">1</button>
+  <button class="btn active" onclick="two()">2</button>
+  <button class="btn" onclick="four()">3</button>
+</div>
+
+<!-- Photo Grid -->
+<div class="row"> 
+  <div class="column">
+    <img src="img/1d.jpg" style="width:20%">
+    <img src="img/2d.jpg" style="width:20%">
+    <img src="img/3d.jpg" style="width:20%">
+    <img src="img/7d.jpg" style="width:20%">
+    
+	
+  </div>
+  <div class="column">
+    <img src="img/8d.jpg" style="width:20%">
+    <img src="img/9d.jpg" style="width:20%">
+    <img src="img/10d.jpg" style="width:20%">
+    <img src="img/11d.jpg" style="width:20%">
+    
+    
+	
+  </div>
+  
+  
+  
+</div>
+<script>
+// class="column"
+var elements = document.getElementsByClassName("column");
+
+// Declare a loop variable
+var i;
+
+//images
+function one() {
+    for (i = 0; i < elements.length; i++) {
+    elements[i].style.msFlex = "100%";  // IE10
+    elements[i].style.flex = "100%";
+  }
+}
+
+// Two images side by side
+function two() {
+  for (i = 0; i < elements.length; i++) {
+    elements[i].style.msFlex = "50%";  // IE10
+    elements[i].style.flex = "50%";
+  }
+}
+
+// Four images side by side
+function four() {
+  for (i = 0; i < elements.length; i++) {
+    elements[i].style.msFlex = "25%";  // IE10
+    elements[i].style.flex = "25%";
+  }
+}
+
+// Add active class to the current button (highlight it)
+var header = document.getElementById("myHeader");
+var btns = header.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
+
+
+<!-- instructions-->
+<ul>
+<li><font color = "#FDD7E4"><h2>1.Click the "Login as a driver" button</h2></font></li> </br>
+
+<li><font color = "#FDD7E4"><h2>2.Then enter your NIC number </h2></font></li> </br>
+
+<li><font color = "#FDD7E4"><h2>3.if you have a NIC with "V" letter, You must want to type it as a capital letter </h2></font></li> </br>
+
+<li><font color = "#FDD7E4"><h2>4.if you don't have a NIC with "V" letter, You must want to type V letter as a capital letter after your NIC Number </h2></font></li> </br>
+
+<li><font color = "#FDD7E4"><h2>5.Once you typed NIC number, Then click login button </h2></font></li> </br>
+
+<li><font color = "#FDD7E4"><h2>6.Your typed NIC must be correct to move in to the system</h2></font> </li></br>
+</body>
+</html>

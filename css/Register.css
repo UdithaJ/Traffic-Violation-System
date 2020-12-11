@@ -1,0 +1,262 @@
+.head1{
+    
+		height:80px;				
+		color: white;
+		text-align: center;
+		padding: 20px;
+		font-size: 30px;
+		top: 50px;
+		padding:1px 0 0;
+		
+ 
+}
+
+.head2{
+		height:80px;
+		color: white;
+		text-align: center;
+		padding: 20px;
+		font-size: 25px;
+		padding:1px 0 0;
+}
+
+
+ .logo{
+	 
+	  top: 10px;
+	  left: 10px;
+	  background:url("../img/test1.png");
+	  position: absolute; 
+	  top: 80pt; 
+	  left: 24pt; 
+	  
+}
+ 
+ 
+body {
+	  margin:0;
+	  padding: 0.5em 0 0.5em 0;
+	  background-image:url("../img/abs.jpg");
+	  overflow-x:hidden;
+}
+.anim{
+	  display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+	  
+}
+
+.head3{
+   				
+		color: yellow;
+		font-size: 30px;
+		position:absolute;
+		top:400px;
+		left:40px;
+
+}
+.ask{
+    
+		height:80px;				
+		color:	#7FFF00;
+		position: absolute;
+		font-size: 20px;
+		top: 425px;
+		left: 370px;
+		
+}
+/*form*/
+.part2{
+	position:absolute;
+	top: 515px;
+	left: 560px;
+	display:block;
+}
+.part1{
+	position:absolute;
+	top: 515px;
+	left:40px;
+	display:block;
+}
+
+
+
+ input[type=text]
+ {
+  width: 370px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 3px solid green;
+  border-radius: 4px;
+  background-color:	#98FB98;
+  box-sizing:border-box;
+  
+  
+}
+select{
+  width: 370px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 3px solid green;
+  border-radius: 4px;
+  background-color:	#98FB98;
+  box-sizing:border-box;
+  
+}
+
+ input[type=tel]
+ {
+  width: 250px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 3px solid green;
+  border-radius: 4px;
+  background-color:	#98FB98;
+ 
+}
+ input[type=email]
+ {
+  width: 250px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 3px solid green;
+  border-radius: 4px;
+  background-color:	#98FB98;
+ 
+}
+
+ input[type=password]
+ {
+  width: 250px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 3px solid green;
+  border-radius: 4px;
+  background-color:	#98FB98;
+ }
+
+.detail{
+	 color:white;
+	 font-size: 18px;
+	 position:absolute;
+	 top:510px;
+	 left:40px;
+}	 
+
+/*buttons*/
+#btn{
+ 
+  border:3px solid blue;
+  color:black;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 6px 3px;
+  border-radius: 6px;
+  background-color:#00FFFF
+  
+}
+
+#btn1{
+		
+	position: absolute;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 10px 20px;
+	top: 338px;
+	left: 230px;
+    color:black;
+	border:2px solid blue;
+	border-radius: 6px;
+	background-color:#00FFFF;
+	
+}
+
+/*checkbox*/
+
+#check{
+  width: 20px;
+  height: 20px;
+  display:inline-block;
+  
+}
+
+
+.banner{
+	
+    position:absolute;
+	top:-150px;
+	left:400px;
+	
+}
+
+/*links*/
+#link1{
+	color:	#1E90FF;
+	text-decoration:none;
+}
+#link2{
+	color:aqua;
+	text-decoration:none;
+}
+#link3{
+	color:aqua;
+	text-decoration:none;
+}
+.note{
+	color:red;
+	font-size:30px;
+}
+
+.navi{
+    list-style-type: none;
+	position:absolute;
+	left:40px;
+	padding: 0;
+	overflow: hidden;
+	background-color: #191970
+	
+}
+
+/*menubar*/
+.navi li{
+	float:left;
+}
+
+.navi li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 40px;
+	text-decoration: none;
+	font-size: 16px;
+	
+}
+
+.navi li a:hover{
+	background-color: #FF4500
+}
+
+
+
+
+.footer{
+	
+	  position:fixed;
+	  left: 0;
+	  bottom: 0;
+	  width: 100%;
+	  background-color: maroon;
+	  color: white;
+	  text-align: center;
+	  padding: 1px;
+}
+
+
+

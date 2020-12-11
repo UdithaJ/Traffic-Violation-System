@@ -1,0 +1,353 @@
+.head1{
+    
+		height:80px;				
+		color: white;
+		text-align: center;
+		padding: 20px;
+		font-size: 30px;
+		top: 50px;
+		padding:1px 0 0;
+		
+ 
+}
+
+.head2{
+		height:80px;
+		color: white;
+		text-align: center;
+		padding: 20px;
+		font-size: 25px;
+		padding:1px 0 0;
+}
+
+
+ .logo{
+	 
+	  top: 10px;
+	  left: 10px;
+	  background:url("../img/test1.png");
+	  position: absolute; top: 80pt; left: 24pt; 
+	  
+}
+.navi{
+    list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #191970
+}
+
+
+.navi li{
+	float: left;
+}
+
+.navi li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 40px;
+	text-decoration: none;
+	font-size: 16px;
+	
+}
+
+.navi li a:hover{
+	background-color: #FF4500
+}
+
+body {
+	  margin:0;
+	  padding: 0.5em 0 0.5em 0;
+	  background-image:url("../img/abs.jpg");
+	  overflow-x: hidden;
+ 
+}
+.slider{
+	width:1000px;
+	height:500px;
+	background:url("../img/fines.jpg");
+	margin:100px auto;
+	animation:slide 20s infinite;
+}
+@keyframes slide{
+	25%{
+		background:url("../img/vehicles.jpg");
+	}
+	50%{
+		background:url("../img/traffic-cctv.jpg");
+	}
+	75%{
+		background:url("../img/detect.jpg");
+	}
+	100%{
+		background:url("../img/fines.jpg");
+	}
+}
+.anim{
+	  display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+	  
+}
+
+ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+}
+
+
+li{
+	float:left;
+}
+
+	
+.motto{
+	color:yellow;
+	font-size:32px;
+	font-style:italic;
+	text-align:center;
+} 
+.details{
+	color:yellow;
+	font-size:20px;
+	text-align:left;
+}
+.types{
+	color:yellow;
+	font-size:20px;
+	text-align:left;
+}
+
+.topic{
+	color:red;
+	font-size:10px;
+	text-align:center;
+}
+.benefit{
+	color:yellow;
+	font-size:35px;
+	font-style:bold;
+	text-align:center;
+}
+.all{
+	background-color:white;
+	width:1000px;
+	height:1000px;
+	overflow:scroll;
+}
+.title{				/*fine.html page*/
+	color:red;
+	font-size:20px;
+	text-align:center;
+}
+.content{
+	color:maroon;
+	padding-left:25px;
+	padding-right:20px;
+	font-size:25px;
+	font-style:bold;
+	text-align:left;
+}
+.list{				/*fine.html page*/
+	color:black;
+	padding-left:30px;
+	font-size:20px;
+	text-align:center;
+}
+.thetitle{			/*acci.html page*/
+	color:red;
+	font-size:30px;
+	text-align:center;
+}
+.subtitle{			/*acci.html page*/
+	color:maroon;
+	font-size:25px;
+	text-align:center;
+}
+
+
+.text1{
+	color:white;
+	font-size: 16px;
+}
+.th{
+	padding-top:20px;
+	padding-right:20px;
+	padding-bottom:20px;
+	padding-left:20px;
+}
+/*background of fine.html page*/
+.fpage{				
+	background-image:url("../img/bcgrnd.jpg");
+	width:1500px;
+	height:1500px;
+	overflow:scroll;
+}
+/*background of acci.html page*/
+.apage{
+	background-image:url("../img/bcgrnd.jpg");
+	width:1500px;
+	height:1500px;
+	overflow:scroll;
+	
+	
+}
+/*background of guide.html page*/
+.gpage{
+	background-image:url("../img/bcgrnd.jpg");
+	width:1500px;
+	height:1500px;
+	overflow:scroll;
+}
+.gtopic{					/*guide.html page*/
+	color:red;
+	font-size:30px;
+	text-align:center;
+}
+.guidance{					/*guide.html page*/
+	color:black;
+	font-size:25px;
+	font-style:italic;
+	text-align:left;
+}
+/*background of aboutus.html page*/
+.abpage{
+	background-image:url("../img/bcgrnd.jpg");
+	width:1500px;
+	height:1500px;
+	overflow:scroll;
+}
+.vsn{			/*aboutus.html page*/
+	color:black;
+	font-size:30px;
+	font-style:align;
+	text-align:center;
+	text-decoration:underline;
+}
+.vsncontent{	/*aboutus.html page*/
+	color:maroon;
+	padding-left:25px;
+	padding-right:20px;
+	font-size:30px;
+	font-style:bold;
+	text-align:center;
+}
+.msn{			/*aboutus.html page*/
+	color:black;
+	font-size:30px;
+	font-style:bold;
+	text-align:center;
+	text-decoration:underline;
+}
+.msncontent{	/*aboutus.html page*/
+	color:maroon;
+	padding-left:25px;
+	padding-right:20px;
+	font-size:30px;
+	font-style:bold;
+	text-align:center;
+}
+.definition{	/*aboutus.html page*/
+	color:black;
+	font-size:40px;
+	font-style:bold;
+	text-align:center;
+	text-decoration:underline;
+}
+.dcontent{		/*aboutus.html page*/
+	color:maroon;
+	padding-left:25px;
+	padding-right:20px;
+	font-size:30px;
+	font-style:bold;
+	text-align:center;
+}
+.police
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+.footer{
+	  position: fixed;
+	  left: 0;
+	  bottom: 0;
+	  width: 100%;
+	  background-color: maroon;
+	  color: white;
+	  text-align: center;
+	  padding: 1px;
+}
+
+/*images for accidents*/
+.pic1{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.pic2{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.pic3{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+/*image for fines*/
+.pic4{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+/*image for guide*/
+.trfc{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+#para1{
+	position:absolute;
+	left:400px;
+	top:555px;
+	color:red;
+	font-size: 25px;
+	font-weight:bold;
+}
+#para2{
+	position:absolute;
+	left:750px;
+	top:555px;
+	color:red;
+	font-size: 25px;
+	font-weight:bold;
+}
+#para3{
+	position:absolute;
+	left:1050px;
+	top:555px;
+	color:red;
+	font-size: 25px;
+	font-weight:bold;
+}
+
+button{
+  border:3px solid black;
+  color:black;
+  padding: 12px 24px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 6px 3px;
+  border-radius:9px;
+  background-color:orange;
+}

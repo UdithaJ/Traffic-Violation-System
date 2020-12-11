@@ -1,0 +1,364 @@
+
+@charset "utf-8";
+
+.head1{
+    
+	height:80px;				
+	color: white;
+	text-align: center;
+	padding: 20px;
+	font-size: 30px;
+	top: 50px;
+	padding:1px 0 0;
+		
+ 
+}
+
+.head2{
+	height:80px;
+	color: white;
+	text-align: center;
+	padding: 20px;
+	font-size: 25px;
+	padding:1px 0 0;
+}
+
+
+.logo{
+	 
+	top: 10px;
+	left: 10px;
+	background:url("../img/test1.png");
+	position: absolute; top: 80pt; left: 24pt; 
+	  
+}
+ 
+ 
+body {
+  
+	padding: 0.5em 0 0.5em 0;
+	background-image:url("../img/abs.jpg");
+ 
+}
+.anim{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	  
+}
+
+.footer{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: maroon;
+	color: white;
+	text-align: center;
+	padding: 1px;
+}
+
+fieldset
+{
+	background-color:silver;
+	max-width:800px;
+	padding:50px;
+	color: white;
+	border-radius: 8px;
+  	border: solid 5px orange;  
+}
+.legendstyle
+{
+	margin-bottom:20px;
+	margin-left:450px;
+}
+
+legend{
+	border: solid 5px yellow;
+	background: green;
+	border-radius: 20px;
+	padding: 0px;
+	font-size: 20px;
+   
+}
+
+
+#vno{
+    display: table-cell;
+	
+}	
+
+form,#vno{
+    display: inline-block;
+	color: black;
+	font-size: 20px;
+	font-weight: bold;
+	font-family:  courier new;
+}
+
+input[type=text]{
+	width: 50%;
+	padding: 8px 30px;
+	margin: 5px 0;
+	box-sizing: border-box;
+	border: 2px solid red;
+	border-radius: 4px;
+	float: right;
+	position: relative;
+	top: 1px;
+}
+
+input[type=datetime-local]{
+	width: 51%;
+	padding: 8px 30px;
+	margin: 5px 0;
+	box-sizing: border-box;
+	border: 2px solid red;
+	border-radius: 4px;
+	float: right;
+	right: -4px;
+	position: relative;
+  
+}
+
+input[type=submit]{
+	background-color: #4CAF50;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 18px;
+	cursor: pointer;
+	float: right;
+	position: relative;
+	top: 30px;
+	width: 15%;
+  
+}
+input[type=reset]{
+	background-color: #4CAF50;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 18px;
+	cursor: pointer;
+	float: left;
+	position: relative;
+	top: 7px;
+	left: 260px;
+	width: 15%;
+}
+
+.ulogo{
+	position: relative;
+	top: -315px;
+	right: -40px;
+	float: right;
+
+} 
+
+
+.link{
+	font-size: 20px;
+	cursor: pointer;
+	float: left;
+	position: relative;
+	top: -350px;
+	left: 15px;
+	font-family: georgia;
+	line-height: 5em;
+	list-style-type: square;
+	color: white;
+	
+    
+}
+
+h3,#pfines{
+	color: #CD5C5C;
+    text-align: center;
+	font-size: 30px;
+	
+}
+
+table,#pfinestable{
+	
+    border:5px solid white;
+	color: black;
+	font-size: 20px;
+    border-collapse: collapse;
+	background-color: olive;
+	position: relative;
+	left: 250px;
+}
+tr {
+	border: 3px solid black;
+	padding: 0em 2em;
+}
+
+h3,#finefees{
+	color: #CD5C5C;
+    text-align: center;
+	font-size: 30px;
+	
+}
+
+table,#finefeetab{
+	
+    border:5px solid white;
+	color: black;
+	font-size: 20px;
+    border-collapse: collapse;
+	background-color: olive;
+	position: relative;
+	left: 250px;
+	
+}
+
+h3,#useract{
+	color: #CD5C5C;
+    text-align: center;
+	font-size: 30px;
+	
+}
+
+table,#uact{
+	
+    border:5px solid white;
+	color: black;
+	font-size: 20px;
+    border-collapse: collapse;
+	background-color: olive;
+	position: relative;
+	left: 290px;
+}
+
+select,#cardtype{
+	border:3px solid red;
+	color: black;
+	background-color: olive;
+	position: relative;
+	right: -70px;
+	border-radius: 20px;
+}
+
+#pf{
+	text-decoration: underline overline;
+	font-size: 30px;
+	font-family: arial;
+	color: purple;	 
+}
+
+input[type=cv]{
+	width: 20%;
+	padding: 8px 30px;
+	margin: 5px 0;
+	box-sizing: border-box;
+	border: 2px solid red;
+	border-radius: 4px;
+	position: relative;
+	right: -170px;
+  
+}
+input[type=date]{
+	width: 43%;
+	padding: 8px 30px;
+	margin: 5px 0;
+	box-sizing: border-box;
+	border: 2px solid red;
+	border-radius: 4px;
+	position: relative;
+	right: -75px;
+  
+}
+
+
+#visa{
+	position: relative;
+	right: -70px;
+	top: 150px;
+		
+}
+
+#link2{
+	font-size: 22px;
+	cursor: pointer;
+	float: left;
+	position: relative;
+	top: -350px;
+	left: 15px;
+	font-family: georgia;
+	line-height: 5em;
+	list-style-type: square;
+	color: white;
+}
+
+#offdet{
+	background-color:white;
+	max-width:800px;
+	padding:30px;
+	color: white;
+	border-radius: 8px;
+  	border: solid 5px orange;
+	position: relative;
+	right: -250px;
+		
+    	
+}
+#warning{
+	color: white;
+	font-size: 30px;
+	padding:30px;
+	text-align: center;
+	font-family: georgia;
+	width: 300px;
+	border: 4px solid green;
+	padding: 10px;
+	margin: 50px;
+	width: 70%;
+	position: relative;
+	right: -170px;
+	border-radius: 18px;
+	  
+}
+
+.navi{
+    list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #191970
+}
+
+
+.navi li{
+	float: left;
+}
+
+.navi li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 40px;
+	text-decoration: none;
+	font-size: 16px;
+	
+}
+
+.navi li a:hover{
+	background-color: #FF4500
+}
+
+li a{
+	color: yellow;
+	text-decoration: 
+}
+
+#linedes{
+	border: 3px dotted #FF6347;
+	border-radius: 5px;
+}
+	
+
+
+
+
+

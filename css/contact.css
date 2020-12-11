@@ -1,0 +1,192 @@
+.head1{
+    
+		height:80px;				
+		color: white;
+		text-align: center;
+		padding: 20px;
+		font-size: 30px;
+		top: 50px;
+		padding:1px;
+		
+ 
+}
+
+.head2{
+		height:80px;
+		color: white;
+		text-align: center;
+		padding: 20px;
+		font-size: 25px;
+		padding:1px 0 0;
+}
+
+
+ .logo{
+	 
+	  top: 10px;
+	  left: 10px;
+	  background:url("../img/test1.png");
+	  position: absolute; top: 80pt; left: 24pt; 
+	  
+}
+ 
+ 
+body {
+  
+	  padding: 0.5em 0 0.5em 0;
+	  background-image:url("../img/abs.jpg");
+ 
+}
+.anim{
+	  display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+	  
+}
+
+.footer{
+	  position: fixed;
+	  left: 0;
+	  bottom: 0;
+	  width: 100%;
+	  background-color: maroon;
+	  color: white;
+	  text-align: center;
+	  padding: 1px;
+}
+
+
+.navi{
+    list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #191970
+}
+
+
+.navi li{
+	float: left;
+}
+
+.navi li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 40px;
+	text-decoration: none;
+	font-size: 16px;
+	
+}
+
+.navi li a:hover{
+	background-color: #FF4500
+}
+
+
+
+
+h3{
+	color:orange;
+	font-family:verdana;
+	font-size:40px;
+	text-align:center;
+}
+h4{
+color:pink;
+font-size:45px;
+text-align:center;
+}
+
+ 
+
+table{
+	color:white;
+	font-size:30px;
+	border:8px solid yellow;
+	width:100%;
+	padding:30px;
+	text-align:left;
+	background-image:url("../img/img10.jpg");
+	
+}
+
+h5{
+	color:pink;
+    font-size:27px; 
+	text-align:center;
+	table-layout:50;
+}
+form{
+	background-image:url("../img/traf.jpg");
+	max-width:1500px;
+	padding:50px;
+	border-radius:28px;
+	color:white;
+	
+}
+
+#con{
+	
+	  left: 30px;
+	  position: absolute; 
+	  top: 250pt; 
+	  left: 820pt;
+   	  
+}
+.im{
+	  right:10px;
+	  position:absolute;
+}
+	  
+#eme{
+	color:red;
+	font-size:40px;
+	text-align:center
+	
+}
+
+.cal{
+	position:absolut;
+	top:250pt;
+	left:50pt;
+	
+	
+
+}
+
+.num{
+	 color:red;
+	 font-size:45;
+	 margin-left:10px;
+}
+#topic{
+	font-size:50px;
+    color:white;
+	text-align:center;
+	margin-bottom:10px;
+}
+
+.tab {
+	margin-left:140px;
+	width:75%;
+}
+
+.clr {
+	color:tomato;
+	margin-top:2px;
+	margin-left:30px;
+}
+
+ 
+#googleMap{
+width:100%;
+height:400px;
+}
+
+.set{
+		text-align:center;
+}
+ 
+
+ 

@@ -1,0 +1,134 @@
+.head1{
+    
+		height:80px;				
+		color: white;
+		text-align: center;
+		padding: 20px;
+		font-size: 30px;
+		top: 50px;
+		padding:1px 0 0;
+		
+ 
+}
+
+.head2{
+		height:80px;
+		color: white;
+		text-align: center;
+		padding: 20px;
+		font-size: 25px;
+		padding:1px 0 0;
+}
+
+
+ .logo{
+	 
+	  top: 10px;
+	  left: 10px;
+	  background:url("../img/test1.png");
+	  position: absolute; top: 80pt; left: 24pt; 
+	  
+}
+ 
+ 
+body {
+  
+	  padding: 0.5em 0 0.5em 0;
+	  background-image:url("../img/abs.jpg");
+ 
+}
+.anim{
+	  display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+	  
+}
+
+.footer{
+	  position: fixed;
+	  left: 0;
+	  bottom: 0;
+	  width: 100%;
+	  background-color: maroon;
+	  color: white;
+	  text-align: center;
+	  padding: 1px;
+}
+
+.navi{
+    list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #191970
+}
+
+
+.navi li{
+	float: left;
+}
+
+.navi li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 40px;
+	text-decoration: none;
+	font-size: 16px;
+	
+}
+
+.navi li a:hover{
+	background-color: #FF4500
+}
+{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+
+
+
+
+input[type=text]
+{
+  width: 200px;
+  padding: 10px 16px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 4px solid blue;
+  border-radius: 4px;
+  background-color:aqua;
+}
+
+input[type=password]
+{
+  width: 200px;
+  padding: 10px 16px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 4px solid blue;
+  border-radius: 4px;
+  background-color:aqua;
+}
+
+button{
+  width: 80px;
+  padding: 6px 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 5px solid blue;
+  border-radius: 60px;
+  background-color:aqua;
+  font-weight:bold;
+}
+
